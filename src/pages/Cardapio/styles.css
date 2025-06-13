@@ -1,0 +1,13 @@
+.cardapio-container {
+  min-height: 100vh;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  background-image: url('../../assets/images/back.logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

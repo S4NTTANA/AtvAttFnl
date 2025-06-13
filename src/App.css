@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* sem scroll */
+}
+
+.fundo-tela {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  background-image: url('./assets/images/back.logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  z-index: -1;
+  filter: brightness(0.7); /* escurece levemente a imagem para destacar o conteúdo */
+}
